@@ -28,6 +28,7 @@ sui move test
 ## Links
 
 - [Sui Move by Example](https://examples.sui.io/)
+- [Mysten Apps](https://github.com/MystenLabs/apps)
 - [Sui Docs](https://docs.sui.io/)
 - [Move Language Reference](https://move-language.github.io/move/)
 - [Move Book](https://move-book.com/)
