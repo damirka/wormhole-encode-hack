@@ -6,7 +6,7 @@ module hackathon::metro {
     public fun buy(/* pass Coin */): Pass { Pass { uses: 10 } }
 
     /// Show to the ticket inspector
-    public fun show(_pass: &Pass) {}
+    public fun show(pass: &Pass): u8 { pass.uses }
 
     /// Use to open the gate
     public fun use_pass(pass: &mut Pass) { pass.uses = pass.uses - 1 }
@@ -14,5 +14,3 @@ module hackathon::metro {
     /// Recycle at the ticket machine
     public fun recycle(pass: Pass) { Pass { uses: _ } = pass }
 }
-
-
