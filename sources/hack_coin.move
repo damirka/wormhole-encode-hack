@@ -23,6 +23,3 @@ module hackathon::hack_coin {
         sui::transfer::public_transfer(coin, receiver);
     }
 }
-
-
-

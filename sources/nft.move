@@ -14,6 +14,3 @@ module hackathon::nft {
         }
     }
 }
-
-
-

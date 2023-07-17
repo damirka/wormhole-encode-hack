@@ -14,5 +14,3 @@ module hackathon::metro_tests {
         metro::recycle(pass);
     }
 }
-
-

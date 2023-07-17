@@ -13,5 +13,3 @@ module hackathon::abilities {
     /// Owned, stores a laptop
     struct Backpack has key { id: UID, laptop: Laptop }
 }
-
-

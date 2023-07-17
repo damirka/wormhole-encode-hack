@@ -31,3 +31,4 @@ sui move test
 - [Sui Docs](https://docs.sui.io/)
 - [Move Language Reference](https://move-language.github.io/move/)
 - [Move Book](https://move-book.com/)
+- [A CLI application using Sui](https://github.com/MystenLabs/sui/tree/main/dapps/kiosk-cli)
